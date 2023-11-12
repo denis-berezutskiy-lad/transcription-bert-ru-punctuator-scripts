@@ -24,22 +24,10 @@ Please note that some new labels are not supported by NeMo scripts out of the bo
 
 ## Punctuation
 
-O
-,
-.
-?
-!
-:
-;
-…
-⁈
--
-—
+O,.?!:;…⁈-—
 
 ## Capitalization
 
-O
-U
-T
+OUT
 
 (T means abbreviation ("total" uppercase))
