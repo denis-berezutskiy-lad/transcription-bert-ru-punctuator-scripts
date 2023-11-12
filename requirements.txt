@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.2
+hydra-core~=1.2.0
+nemo_toolkit[nlp]==1.19.0
+omegaconf~=2.2.0
+requests~=2.28.1
+torch~=1.13.1
+torchmetrics==0.8.2
+urllib3~=1.26.13
