@@ -17,3 +17,29 @@ Please also note that torchmetrics is not linked to the latest version, because 
 # Why one more punctuator
 
 The idea behind the project is to use large continous professional transcriptions for training rather than relying on short low-quality samples consisting of 1-2 sentences (which is typical for the most popular datasets in Russian). Our experiments show significant improvements comparing to BERTs trained on the standard Ru datasets (social comments, omnia russica etc.). That's why we mainly use transcriptions published by Russian legislatures (Gosduma, Mosgorduma) with some addition of film subtitles from OpenSubtitles project.
+
+# Supported labels
+
+Please note that some new labels are not supported by NeMo scripts out of the box (-, —, T), so we need to add special handling for them. See the inference notebook for details.
+
+## Punctuation
+
+O
+,
+.
+?
+!
+:
+;
+…
+⁈
+-
+—
+
+## Capitalization
+
+O
+U
+T
+
+(T means abbreviation ("total" uppercase))
